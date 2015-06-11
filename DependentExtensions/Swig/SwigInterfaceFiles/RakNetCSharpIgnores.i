@@ -92,7 +92,7 @@ IGNORERAKPEERANDINTERFACE(SetIncomingDatagramEventHandler( bool (*_incomingDatag
 %ignore RakNet::RakString::RakString(const unsigned char *format, ...);
 %ignore RakNet::RakString::freeList;
 %ignore RakNet::RakString::emptyString;
-
+%ignore RakNet::RakString::operator+;
 //List
 %ignore DataStructures::List::operator[];
 
